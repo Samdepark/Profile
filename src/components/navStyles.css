@@ -1,0 +1,38 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgb(5, 100, 104);
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 4, 38);
+    padding: 15px;
+    height:20%;
+    width: auto;
+}
+.logo{
+    padding:2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(241, 242, 248);
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    padding:5px;
+}
+.link:hover{
+    color: rgba(240, 27, 27, 0.845);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+

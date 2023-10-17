@@ -1,0 +1,26 @@
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50%;
+    width: auto;
+    margin-top: 20px;
+    background-color: black;
+    text-align: justify;
+    padding:5px;}
+.lmts{
+    display: flex-start;
+    margin:10px;
+    text-decoration: none;
+
+}
+
+.cprt{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
