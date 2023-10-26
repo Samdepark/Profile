@@ -1,22 +1,23 @@
-import React from 'react'
-import NavBar from '../components/navbar'
-import Footer from '../components/footer'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "../PageStyles/Home.css";
 
-const Home=()=>{
-  return<>
-        <NavBar/>
-        <section className='self'>
-          <p>Hi, My name is,</p>
-          <h1 className='name'>Samuel Gitau </h1>
-          <h5>I'm a Fullstack in both Web & Software Development.</h5>
-          <p>I love codding and am getting really passionate about it, Mainly building it as my carrier 
-          </p>
-          <button className='btn'>Get in touch</button>
+const Home = () => {
+  return (
+    <div className="home">
+      <section className="self">
+        <p className="int">Hi, My name is,</p>
+        <h1 className="name">Samuel Gitau </h1>
+        <h5>Fullstack in both Web & Software Development.</h5>
+        <p className="des">This is my portforlio.</p>
+        <button className="btn">
+          <NavLink to="/contact" className="btn">
+            Contact
+          </NavLink>
+        </button>
+      </section>
+    </div>
+  );
+};
 
-
-        </section>
-        <Footer/>
-        </>
-}
-
-export default Home
+export default Home;
